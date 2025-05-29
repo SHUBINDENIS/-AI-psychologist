@@ -1,0 +1,31 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Локальные файлы
+*.log
+.DS_Store
+Thumbs.db
+
+# Исключаем текущую базу данных, так как мы её копируем отдельно
+db.sqlite3 
